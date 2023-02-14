@@ -1,0 +1,8 @@
+<body id="">
+    {{#each tracksArray}}
+    <div class="artist-album-div">
+            <p>{{this.name}}</p>
+            <audio controls> <source src="{{this.preview_url}}"></audio>
+    </div>
+    {{/each}}
+</body>
